@@ -1,0 +1,25 @@
+.about {
+    margin-bottom: 10vmin;
+    margin-left: 3vmin;
+}
+
+.skills {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 6vmin;
+    flex-wrap: wrap;
+}
+
+.skills > li > img {
+    height: 10vmin
+}
+
+.contact {
+    list-style-type: none;
+}
+
+.contact > li > a {
+    text-decoration: none;
+    color: white;
+}

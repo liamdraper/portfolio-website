@@ -1,0 +1,15 @@
+h1 {
+    padding-left: 6vmin;
+}
+
+.project-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 10vmin 0 10vmin;
+    margin-bottom: 4vmin;
+}
+
+.project-card > img {
+    height: 70vmin;
+}

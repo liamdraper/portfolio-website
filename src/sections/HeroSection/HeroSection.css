@@ -1,0 +1,15 @@
+.heading {
+    margin-top: 12vmin;
+    text-align: center;
+}
+
+.heading > h1 {
+    font-size: 8vmin;
+}
+
+.heading > img {
+    /* transform: rotate(90deg); */
+    width: 200vmin;
+    height: 50vmin;
+    object-fit: cover;
+}

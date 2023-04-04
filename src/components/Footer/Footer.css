@@ -1,0 +1,23 @@
+.footer {
+    position: fixed;
+    background-color: rgb(30, 30, 30);
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 0;
+    height: 6vmin;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.footer > button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-right: 6vmin;
+    margin-left: 4vmin;
+}
+
+.footer > button > img {
+    height: 3vmin;
+}
