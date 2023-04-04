@@ -8,18 +8,11 @@ import { useRef } from "react";
 
 function App() {
 
-  const projectsRef = useRef(null);
-
-  function handleClick() {
-    // projectsRef.current.scrollIntoView({ behavior: 'smooth' });
-    window.scrollTo(0, 650);
-} 
-
   return (
     <>
-      <NavBar handleClick={handleClick}/>
+      <NavBar />
       <HeroSection />
-      <ProjectsSection ref={projectsRef}/>
+      <ProjectsSection />
       <AboutSection />
       <Footer />
     </>

@@ -13,6 +13,7 @@ export default function ProjectsSection() {
                         <h3>React | Express.js | MongoDB | Node.js</h3>
                         <p>Table-top simulator of the board game Dune Imeperium - a card game/work replacement hybrid</p>
                         <h4 className={"link"} onClick={() => window.open('https://dune-imperium-tts.herokuapp.com/')}>View Project</h4>
+                        <h4 className={"link"} onClick={() => window.open('https://github.com/liamdraper/dune-imperium')}>View GitHub</h4>
                     </section>
                     <img src={dunepic} alt="" />
                 </div>
@@ -22,6 +23,7 @@ export default function ProjectsSection() {
                         <h3>Django | Python | postgresQL | SeatGeek API </h3>
                         <p>Web application for searching and buying tickets through an API</p>
                         <h4 className={"link"} onClick={() => window.open('https://concertspots.herokuapp.com/accounts/login/?next=/')}>View Project</h4>
+                        <h4 className={"link"} onClick={() => window.open('https://github.com/liamdraper/concertspots')}>View GitHub</h4>
                     </section>
                     <img src={concertspots} alt="" />
                 </div>
@@ -31,6 +33,7 @@ export default function ProjectsSection() {
                         <h3>Express.js | JavaScript</h3>
                         <p>Note-taking web application for taking notes, including a calendar scheudler and a flow-chart creator</p>
                         <h4 className={"link"} onClick={() => window.open('https://bjj-notes-tracker.herokuapp.com/')}>View Project</h4>
+                        <h4 className={"link"} onClick={() => window.open('https://github.com/liamdraper/BJJ-Notes-Tracker')}>View GitHub</h4>
                     </section>
                     <img src={bjjnotestracker} alt="" />
                 </div>

@@ -1,5 +1,7 @@
 import "./AboutSection.css";
 
+import Resume from "../../Resume/Liam Draper Resume (2).docx";
+
 export default function AboutSection() {
     return(
         <div className="about">
@@ -22,6 +24,7 @@ export default function AboutSection() {
                 <li><a href="mailto:liamdraper83@gmail.com">liamdraper83@gmail.com</a></li>
                 <li><a href="https://www.linkedin.com/in/liam-draper-/">Linkedin</a></li>
                 <li><a href="https://github.com/liamdraper/dune-imperium">GitHub</a></li>
+                <li><a href={Resume} download = {Resume}>Download Resume</a></li>
             </ul>
         </div>
     )
